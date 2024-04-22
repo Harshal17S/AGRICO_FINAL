@@ -13,6 +13,7 @@ function App() {
           <Route path='/profile' Component={Profile} />
           <Route path='/Dash' Component={Dashboard}/>
           
+          
         </Routes>
       </>
     </div>

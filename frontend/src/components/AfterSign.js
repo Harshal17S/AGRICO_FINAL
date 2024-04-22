@@ -29,7 +29,7 @@ const AfterSign = () => {
             <div className="navbarright">
                 <img src={user.imageUrl} alt='👤' style={{ height: "50px", width: "50px", borderRadius: "50%" }} />
                 <Link to="/profile" style={{ listStyle: "none", textDecoration: "none", color: 'whitesmoke' }}><p>{user.fullName}</p></Link>
-                <a href="/Dash"   style={{ listStyle: "none", textDecoration: "none", color: 'whitesmoke' }}>DashBoard</a>
+                <a href={"https://agrico-mlpage.vercel.app/"}   style={{ listStyle: "none", textDecoration: "none", color: 'whitesmoke' }}>DashBoard</a>
                 <a href={"https://agrico-community.vercel.app/"} style={{ listStyle: "none", textDecoration: "none", color: 'whitesmoke' }}><p>Join Community</p></a>
                 <SignOutButton id='navbarbutton' />
             </div>
