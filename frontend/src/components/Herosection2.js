@@ -3,6 +3,7 @@ import '../css/HeroSection.css'
 import AfterSign from './AfterSign'
 // import Header from '../assests/Header.webp'
 import dance from '../assests/dance.png'
+import org from '../assests/org.jpg'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -25,7 +26,7 @@ const Herosection2 = () => {
 
             <div className="hero-bottom">
                 <p id='hero-bottom-text'>Connecting Communities, Sparking Conversations</p>
-                <img data-aos="fade-up" src={dance} alt="" />
+                <img data-aos="fade-up" src={org} alt="" />
             </div>
         </div>
     )

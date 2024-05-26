@@ -12,7 +12,7 @@ const Reviews = () => (
                     key={`marquee-example-review-${id}`}
                     avatarSrc={`https://randomuser.me/api/portraits/men/${id}.jpg`}
                     reviewerName={`Anonymous User`}
-                    reviewText={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
+                    reviewText={`It help me alot to get better price for my grains`}
                 />
             ))}
         </Marquee>  

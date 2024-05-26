@@ -4,6 +4,7 @@ import Navbar_ from './Navbar_'
 import Header from '../assests/Header.webp'
 import crop from '../assests/crops-7247685-5882203.mp4'
 import dance from '../assests/dance.png'
+import org from '../assests/org.jpg'
 import { useEffect } from 'react'
 
 import AOS from 'aos'
@@ -28,7 +29,7 @@ const HeroSection = () => {
             <div className="hero-bottom">
                 <p id='hero-bottom-text'>Connecting Communities, Sparking Profits </p>
                 
-                <img data-aos="fade-up" data-aos-duration="3000" src={dance} alt="" />
+                <img data-aos="fade-up" data-aos-duration="3000" src={org} alt="" />
             </div>
         </div>
 

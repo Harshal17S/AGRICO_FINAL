@@ -4,8 +4,10 @@ import '../css/Feature.css'
 import Clubs from './Clubs'
 import Bot from '../assests/aibot.gif'
 import Volunteer from '../assests/Volunteer.gif'
-import Social from '../assests/Social.mp4'
-import Profanity from '../assests/profanity.png'
+import Social from '../assests/social.png'
+import sensor from '../assests/sensor.png'
+import bidding from '../assests/bidding.png'
+import price from '../assests/price.png'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -27,13 +29,16 @@ const Features = () => {
             <div className="feature-bento">
                 <div className="bento-top">
                     <div className="bento-top-left" >
-                        <image src={Profanity} alt="" style={{height:'60%',width:'50%',margin:'auto'}}/>
+                        {/* <image src={Social} alt="" style={{height:'60%',width:'50%',margin:'auto'}}/>
                         <h2>Social Platform</h2>
-                        <p>Our social app empowers students to log in and share diverse content formats <br /> including text, images, and videos. Join the vibrant community, <br /> express yourself, and engage with peers effortlessly.</p>
+                        <p>Our social app empowers students to log in and share diverse content formats <br /> including text, images, and videos. Join the vibrant community, <br /> express yourself, and engage with peers effortlessly.</p> */}
+                        <img src={Social} alt="" style={{height:'60%',width:'50%', margin:'auto'}}/>
+                        <h2>Social Platform</h2>
+                        <p>Our social app empowers students to log in and share diverse content formats <br /> including text, images, and videos. Join the vibrant community, <br /> express yourself, and engage with peers effortlessly.</p> 
                     </div>
 
                     <div className="bento-top-right">
-                        <img src={Profanity} alt="" style={{height:'50%',width:'60%'}}/>
+                        <img src={sensor} alt="" style={{height:'50%',width:'60%'}}/>
                         <h2>Sensor Based Price Prediction</h2>
                         <p> Integrated chatbot offering capabilities like <br /> generating catchy slogans and <br />captions for club activities.</p>
                     </div>
@@ -41,12 +46,12 @@ const Features = () => {
 
                 <div className="bento-bottom">
                     <div className="bento-bottom-left">
-                        <img src={Profanity} alt="" style={{width:'90%'}}/>
+                        <img src={bidding} alt="" style={{width:'90%' ,height:'50%'}}/>
                         <h2>Live Bidding</h2>
                         <p>image moderation to swiftly identify and  <br />address offensive content with built <br /> in report and block features</p>
                     </div>
-        <div className="bento-bottom-right">
-                        <img src={Profanity} alt="" />
+                   <div className="bento-bottom-right">
+                        <img src={price} alt="" style={{height:'50%'} }/>
                         <h2>Price Prediction</h2>
                         <p>fbvburndnvefiuhnc vibrantsefesffebhfuyyyyyyyyyyyyyyefbuy<br/>
                         efibfgigfnuvfugihlfigwui<br/> cbuigifge
