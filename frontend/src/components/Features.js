@@ -23,7 +23,7 @@ const Features = () => {
 
             <div className="feature-bottom">
                 <p id='feature-text-top'>Some of the top Features<br />out platform provides</p>
-                <p id='feature-text-bottom'>cneenioe biovmeovuebfcvefev e eve,<br /> cev  efb c  befn c   efb ck   <br /> ebfvnkc bife vce  </p>
+                <p id='feature-text-bottom'>Top 4 features of our website that make us <strong>Unquie</strong><br />  <br />  </p>
             </div>
 
             <div className="feature-bento">
@@ -34,13 +34,13 @@ const Features = () => {
                         <p>Our social app empowers students to log in and share diverse content formats <br /> including text, images, and videos. Join the vibrant community, <br /> express yourself, and engage with peers effortlessly.</p> */}
                         <img src={Social} alt="" style={{height:'60%',width:'50%', margin:'auto'}}/>
                         <h2>Social Platform</h2>
-                        <p>Our social app empowers students to log in and share diverse content formats <br /> including text, images, and videos. Join the vibrant community, <br /> express yourself, and engage with peers effortlessly.</p> 
+                        <p> Social app for farmers for daily price updates <br />  <br /> </p> 
                     </div>
 
                     <div className="bento-top-right">
                         <img src={sensor} alt="" style={{height:'50%',width:'60%'}}/>
                         <h2>Sensor Based Price Prediction</h2>
-                        <p> Integrated chatbot offering capabilities like <br /> generating catchy slogans and <br />captions for club activities.</p>
+                        <p> Price Prediction using sensor<br /> <br /> </p>
                     </div>
                 </div>
 
@@ -48,14 +48,13 @@ const Features = () => {
                     <div className="bento-bottom-left">
                         <img src={bidding} alt="" style={{width:'90%' ,height:'50%'}}/>
                         <h2>Live Bidding</h2>
-                        <p>image moderation to swiftly identify and  <br />address offensive content with built <br /> in report and block features</p>
+                        <p>Live bidding between two peoples <br /> in report and block features</p>
                     </div>
                    <div className="bento-bottom-right">
                         <img src={price} alt="" style={{height:'50%'} }/>
                         <h2>Price Prediction</h2>
-                        <p>fbvburndnvefiuhnc vibrantsefesffebhfuyyyyyyyyyyyyyyefbuy<br/>
-                        efibfgigfnuvfugihlfigwui<br/> cbuigifge
-                        <br/>gajgebvzcbegicnbeufknolh
+                        <p>Next day price predication using today's price<br/> 
+                        <br/>
                         </p>
                     </div>
                 </div>

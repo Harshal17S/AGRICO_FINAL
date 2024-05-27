@@ -4,7 +4,7 @@
     height: 80px;
 }
 
-#clubs-text {
+.clubs-text {
     color: whitesmoke;
     padding-right: 0.8rem;
 }
@@ -19,3 +19,13 @@
     color: aliceblue;
     font-size: larger;
 }
+
+.club-link{
+    text-decoration: none;
+  
+   color:aliceblue;
+}
+  
+  .club-link:hover {
+    text-decoration: none; 
+  }
